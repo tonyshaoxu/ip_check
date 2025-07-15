@@ -30,4 +30,4 @@ jobs:
         run: |
           mkdir -p outputs
           chmod +x check.sh
-          ./check.sh > ./outputs/result.txt
+          ./check.sh | tee ./outputs/result.txt
