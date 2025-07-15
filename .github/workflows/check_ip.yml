@@ -31,3 +31,16 @@ jobs:
           mkdir -p outputs
           chmod +x check.sh
           ./check.sh | tee ./outputs/result.txt
+          
+      - name: Commit all files
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "无文件变动，跳过提交"
+            exit 0  # 无错误退出
+          else
+            git config --global user.name "GitHub Actions Bot"
+            git config --global user.email "actions@github.com"
+            git add ./outputs
+            git commit -m "Auto-commit generated file [skip ci]"
+            git push
+          fi
