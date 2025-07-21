@@ -1,5 +1,29 @@
-8.8.8.8 - ISP: Google LLC, ORG: Google Public DNS, MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting
-20.189.99.175 - ISP: Microsoft Corporation, ORG: Microsoft Azure Cloud (eastasia), MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting
-8.212.112.2 - ISP: Alibaba (US) Technology Co., Ltd., ORG: Alibaba.com Singapore E-Commerce Private Limited, MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting
-8.212.112.22 - ISP: Alibaba (US) Technology Co., Ltd., ORG: Alibaba.com Singapore E-Commerce Private Limited, MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting
-8.218.110.157 - ISP: Alibaba (US) Technology Co., Ltd., ORG: Alibaba.com Singapore E-Commerce Private Limited, MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting
+8.218.221.162 - ISP: Alibaba (US) Technology Co., Ltd., ORG: Alibaba.com Singapore E-Commerce Private Limited, MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting, REGION: Hong Kong
+8.210.23.33 - ISP: Alibaba.com LLC, ORG: Hong Kong, MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting, REGION: Hong Kong
+18.163.193.1 - ISP: Amazon Technologies Inc., ORG: AWS EC2 (ap-east-1), MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting, REGION: Hong Kong
+34.150.86.180 - ISP: Google LLC, ORG: Google Cloud (asia-east2), MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting, REGION: Hong Kong
+2.56.91.217 - ISP: IHC, ORG: Adcdata Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+38.150.0.72 - ISP: Polonetwork Limited, ORG: Nearoute Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: United States
+38.150.15.122 - ISP: Hytron Network Services Limited, ORG: Hytron Network Services Limited, MOB: true, PROXY: false, HOSTING: false, TYPE: Mobile, REGION: China
+38.150.0.101 - ISP: Polonetwork Limited, ORG: Nearoute Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: United States
+38.181.76.127 - ISP: Eons Data Communications Limited, ORG: Eons Data Communications Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+43.198.109.209 - ISP: Amazon.com, Inc., ORG: AWS EC2 (ap-east-1), MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting, REGION: Hong Kong
+43.199.31.234 - ISP: Amazon.com, Inc., ORG: AWS EC2 (ap-east-1), MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting, REGION: Hong Kong
+43.248.9.156 - ISP: VH-GLOBAL, ORG: Hong Kong Alpha Intl LTD, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+45.192.249.224 - ISP: Akile LTD, ORG: Akile LTD, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Japan
+45.78.21.247 - ISP: IT7 Networks Inc, ORG: IT7 Networks Inc, MOB: false, PROXY: true, HOSTING: true, TYPE: Proxy, REGION: Hong Kong
+43.199.41.173 - ISP: Amazon.com, Inc., ORG: AWS EC2 (ap-east-1), MOB: false, PROXY: false, HOSTING: true, TYPE: Hosting, REGION: Hong Kong
+45.195.20.156 - ISP: NETEASE (HONG KONG) LIMITED, ORG: HongKong NetEase Interactive Entertainment Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+45.196.233.198 - ISP: Akile LTD, ORG: Akile LTD, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Japan
+45.195.20.181 - ISP: NETEASE (HONG KONG) LIMITED, ORG: HongKong NetEase Interactive Entertainment Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+45.195.20.182 - ISP: NETEASE (HONG KONG) LIMITED, ORG: HongKong NetEase Interactive Entertainment Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+45.196.234.208 - ISP: Acck LLC, ORG: Akile LTD, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+45.196.235.137 - ISP: Akile LTD, ORG: Akile LTD, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+45.196.248.137 - ISP: LuoGeLang France Limited, ORG: Cloud Innovation Ltd, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Philippines
+45.196.248.134 - ISP: LuoGeLang France Limited, ORG: Cloud Innovation Ltd, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Philippines
+45.207.201.152 - ISP: FD-298-8796, ORG: Vapeline Technology, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: United States
+45.196.248.135 - ISP: LuoGeLang France Limited, ORG: Cloud Innovation Ltd, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Philippines
+45.207.216.67 - ISP: MoeDove, ORG: Vapeline Technology, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+46.3.240.218 - ISP: Akari Networks Limited, ORG: Dom Tehniki Ltd, MOB: true, PROXY: false, HOSTING: false, TYPE: Mobile, REGION: Hong Kong
+46.20.109.83 - ISP: Nearoute Limited, ORG: Smartnet I.K.E, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
+45.207.218.176 - ISP: Vapeline Technology, ORG: , MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
