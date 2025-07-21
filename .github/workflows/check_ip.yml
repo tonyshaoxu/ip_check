@@ -31,7 +31,7 @@ jobs:
           mkdir -p outputs
           chmod +x check.sh convert_to_html.sh
           ./check.sh | tee ./outputs/result.txt
-          ./convert_to_html.sh result.txt ./outputs/index.html
+          ./convert_to_html.sh ./outputs/result.txt ./outputs/index.html
           
       - name: Commit all files
         run: |
