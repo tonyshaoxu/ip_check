@@ -29,8 +29,9 @@ jobs:
       - name: Run a one-line script
         run: |
           mkdir -p outputs
-          chmod +x check.sh
+          chmod +x check.sh convert_to_html.sh
           ./check.sh | tee ./outputs/result.txt
+          ./convert_to_html.sh result.txt ./outputs/index.html
           
       - name: Commit all files
         run: |
