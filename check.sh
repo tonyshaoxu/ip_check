@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#Check IP type: mobile, hosting, proxy, residential using ip-api.com API
-
 # Use xargs with parallelism to speed up IP processing, with curl error handling.
 xargs -P 5 -I {} bash -c '
   ip={}
@@ -12,6 +10,7 @@ xargs -P 5 -I {} bash -c '
     exit 1
   fi
 
+  reg=$(echo $result | jq -r ".country")
   isp=$(echo $result | jq -r ".isp")
   org=$(echo $result | jq -r ".org")
   mobile=$(echo $result | jq -r ".mobile")
@@ -40,7 +39,7 @@ xargs -P 5 -I {} bash -c '
       ;;
   esac
 
-  echo "$ip - ISP: $isp, ORG: $org, MOB: $mobile, PROXY: $proxy, HOSTING: $hosting, TYPE: $type"
+  echo "$ip - ISP: $isp, ORG: $org, MOB: $mobile, PROXY: $proxy, HOSTING: $hosting, TYPE: $type, REGION: $reg"
 ' < iplist.txt
 
 # Removed -n 1 to avoid xargs conflict with -I {}
