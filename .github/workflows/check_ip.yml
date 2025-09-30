@@ -30,8 +30,10 @@ jobs:
         run: |
           mkdir -p outputs
           chmod +x check.sh convert_to_html.sh
+          wget -O iplist.txt https://raw.seagulls.eu.org/tonyshaoxu/Netflix_HK_DNS/refs/heads/main/outputs/accessible_ips.txt?token=private
           ./check.sh | tee ./outputs/result.txt
           ./convert_to_html.sh ./outputs/result.txt ./outputs/index.html
+          rm -f iplist.txt
           
       - name: Commit all files
         run: |
