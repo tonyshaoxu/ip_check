@@ -31,9 +31,18 @@ jobs:
           mkdir -p outputs
           chmod +x check.sh convert_to_html.sh
           wget -O iplist.txt https://raw.seagulls.eu.org/tonyshaoxu/Netflix_HK_DNS/refs/heads/main/outputs/accessible_ips.txt?token=private
-          ./check.sh | tee ./outputs/result.txt
-          ./convert_to_html.sh ./outputs/result.txt ./outputs/index.html
-          rm -f iplist.txt
+          #./check.sh | tee ./outputs/result.txt
+          #./convert_to_html.sh ./outputs/result.txt ./outputs/index.html
+          ./check.sh | sort -t . -k1,1n -k2,2n -k3,3n -k4,4n | tee ./outputs/result.txt
+          cat ./outputs/result.txt | grep Residential/Other | tee ./outputs/residential.txt
+          cat ./outputs/result.txt | grep Mobile | tee ./outputs/mobile.txt
+          cat ./outputs/residential.txt ./outputs/mobile.txt | sort -t . -k1,1n -k2,2n -k3,3n -k4,4n | awk -F', ' '{print $1","$2","$(NF-1)","$NF}'  > temp.txt
+          ./convert_to_html.sh temp.txt ./outputs/all.html
+          cat ./outputs/result.txt | grep -v Mobile | grep -v Residential/Other | sort -t . -k1,1n -k2,2n -k3,3n -k4,4n | awk -F', ' '{print $1","$2","$(NF-1)","$NF}' > temp2.txt
+          ./convert_to_html.sh temp2.txt ./outputs/other.html
+          cat ./outputs/residential.txt ./outputs/mobile.txt | sort -t . -k1,1n -k2,2n -k3,3n -k4,4n | awk -F', ' '{print $1","$2","$(NF-1)","$NF}' | grep -w "REGION: Hong Kong"  > hk.txt
+          ./convert_to_html.sh hk.txt ./outputs/index.html
+          rm -f *.txt
           
       - name: Commit all files
         run: |
