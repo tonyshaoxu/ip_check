@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir -p outputs
           chmod +x check.sh convert_to_html.sh
-          wget -O iplist.txt https://raw.seagulls.eu.org/tonyshaoxu/Netflix_HK_DNS/refs/heads/main/outputs/accessible_ips.txt?token=private
+          wget -O iplist.txt ${{ URL }} ##https://raw.seagulls.eu.org/tonyshaoxu/Netflix_HK_DNS/refs/heads/main/outputs/accessible_ips.txt?token=private
           #./check.sh | tee ./outputs/result.txt
           #./convert_to_html.sh ./outputs/result.txt ./outputs/index.html
           ./check.sh | sort -t . -k1,1n -k2,2n -k3,3n -k4,4n | tee ./outputs/result.txt
