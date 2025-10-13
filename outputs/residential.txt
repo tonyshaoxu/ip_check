@@ -1,12 +1,11 @@
 45.196.235.203 - ISP: Akile LTD, ORG: Akile LTD, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
 45.207.214.186 - ISP: Vapeline Technology, ORG: , MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
-45.221.114.152 - ISP: VMISS Inc., ORG: SUN Network Company Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: South Africa
+45.221.114.152 - ISP: VMISS Inc., ORG: Telkom SA LTD., MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Taiwan
 89.251.26.47 - ISP: Huizhou Huigu Cloud Technology Co Ltd, ORG: Huizhou Huigu Cloud Technology Co., Ltd, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
 103.97.200.216 - ISP: Alliance Intelligent Technologies Pte. Ltd., ORG: Newrui Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
 103.97.200.217 - ISP: Alliance Intelligent Technologies Pte. Ltd., ORG: Newrui Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
 103.100.158.15 - ISP: Rainbow Network Limited, ORG: Google LLC, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Japan
 103.122.247.57 - ISP: HostUS Worldwide, ORG: HK Dingdian Network Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
-103.165.84.12 - ISP: Polonetwork Limited, ORG: Gem Cloud Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
 156.224.79.66 - ISP: Akile LTD, ORG: ICIDC Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
 156.224.79.184 - ISP: Akile LTD, ORG: ICIDC Limited, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
 185.241.40.85 - ISP: Bage Cloud LLC, ORG: Bage Cloud LLC, MOB: false, PROXY: false, HOSTING: false, TYPE: Residential/Other, REGION: Hong Kong
